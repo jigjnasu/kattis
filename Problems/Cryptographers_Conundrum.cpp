@@ -3,7 +3,7 @@
   Problem Cryptographer's Conundrum.
   Solution by Rakesh Kumar, cpp.rakesh(at)gmail.com
   Date: 06/04/2017
- */
+*/
 
 #include <iostream>
 #include <string>
@@ -16,10 +16,9 @@ int main() {
 
     std::size_t days = cypher.size();
 
-    for (std::size_t i = 0; i < cypher.size(); i += key.size()) {
-        for (std::size_t j = 0; j < key.size(); ++j)
-            if (cypher[i + j] == key[j])
-                --days;
+    for (std::size_t i = 0; i < cypher.size(); ++i) {
+        if (cypher[i] == key[i % key.size()])
+            --days;
     }
 
     printf("%lu\n", days);
