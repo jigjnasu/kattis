@@ -6,33 +6,29 @@
 */
 
 #include <cstdio>
+#include <cmath>
 
 int main() {
     int n = 0;
     scanf("%d", &n);
 
-    int max = 0;
-    int i = 0;
-    while (max < n)
-        max = (1 << i++);
+    int max = 1 << static_cast<int>(std::ceil(std::log2(n)));
+    printf("%d ", max);
 
-    printf("%d", max);
-
-    int splits = 1;
-    int x = max >> 1;
-    int total = x;
-    while (1) {
-        if (total + (x >> 1) <= n)
-            total += x >> 1;
-        ++splits;
-
-        if (total == n)
-            break;
-
-        x >>= 1;
+    if (n == max) {
+        printf("0\n");
+        return 0;
     }
 
-    printf(" %d\n", splits);
-
+    int i = 0;
+    while (n > 0) {
+        max >>= 1;
+        if (n >= max)
+            n -= max;
+        ++i;
+    }        
+    
+    printf("%d\n", i);
+    
     return 0;
 }
