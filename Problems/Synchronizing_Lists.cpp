@@ -1,8 +1,8 @@
 /*
-Kattis.com
-Problem Synchronizing Lists.
-Solution by Rakesh Kumar, cpp.rakesh(at)gmail.com
-Date: 14/04/2017
+  Kattis.com
+  Problem Synchronizing Lists.
+  Solution by Rakesh Kumar, cpp.rakesh(at)gmail.com
+  Date: 14/04/2017
 */
 
 #include <cstdio>
