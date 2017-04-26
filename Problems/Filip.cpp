@@ -1,6 +1,6 @@
 /*
   Kattis.com
-  Problem Permuted Arithmetic Sequence.
+  Problem Filip.
   Solution by Rakesh Kumar, cpp.rakesh(at)gmail.com
   Date: 26/04/2017
  */
