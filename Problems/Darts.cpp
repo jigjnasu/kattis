@@ -1,6 +1,6 @@
 /*
   Kattis.com
-  Problem Permuted Arithmetic Sequence.
+  Problem Darts.
   Solution by Rakesh Kumar, cpp.rakesh(at)gmail.com
   Date: 27/04/2017
  */
