@@ -20,7 +20,7 @@ int main() {
         const int t = seq.find(line[i]);
         const int c = std::atoi(line.substr(i + 1, 2).c_str());
         if (deck[t][c - 1] == 0) {
-            deck[t][std::atoi(line.substr(i + 1, 2).c_str()) - 1] = 1;
+            deck[t][c - 1] = 1;
         } else {
             std::cout << "GRESKA" << std::endl;
             return 0;
