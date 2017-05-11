@@ -3,7 +3,7 @@
   Problem Beavergnaw.
   Solution by Rakesh Kumar, cpp.rakesh(at)gmail.com
   Date: 05/05/2017
- */
+*/
 
 #include <cstdio>
 #include <cmath>

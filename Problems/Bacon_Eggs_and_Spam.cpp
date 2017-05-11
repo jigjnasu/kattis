@@ -11,7 +11,7 @@
 #include <algorithm>
 #include <vector>
 
-int main(){
+int main() {
     while(1) {
         int n = 0;
         std::cin >> n;

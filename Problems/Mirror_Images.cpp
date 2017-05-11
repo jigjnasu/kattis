@@ -29,6 +29,7 @@ int main() {
             std::getline(std::cin, line);
             images.push_back(line);
         }
+        
         mirror.push_back(images);
     }
 

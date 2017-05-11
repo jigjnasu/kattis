@@ -3,7 +3,7 @@
   Problem Beehives.
   Solution by Rakesh Kumar, cpp.rakesh(at)gmail.com
   Date: 15/04/2017
- */
+*/
 
 #include <cstdio>
 #include <vector>

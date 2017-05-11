@@ -1,8 +1,8 @@
 /*
-Kattis.com
-Problem Soda Surpler.
-Solution by Rakesh Kumar, cpp.rakesh(at)gmail.com
-Date: 11/04/2017
+  Kattis.com
+  Problem Soda Surpler.
+  Solution by Rakesh Kumar, cpp.rakesh(at)gmail.com
+  Date: 11/04/2017
 */
 
 #include <cstdio>
