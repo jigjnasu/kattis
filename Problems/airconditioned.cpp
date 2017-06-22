@@ -79,12 +79,12 @@ int main() {
     merge_sort(rooms, 0, rooms.size() - 1);
 
     int count = 1;
-    for (std::size_t i = 0; i < rooms.size() - 1; ++i) {
-        if (rooms[i].upper >= rooms[i + 1].lower &&
-            rooms[i].upper <= rooms[i + 1].upper)
-            ;
-        else
+    int limit = rooms[0].upper;
+    for (std::size_t i = 1; i < rooms.size(); ++i) {
+        if (rooms[i].lower > limit) {
+            limit = rooms[i].upper;
             ++count;
+        }
     }
 
     printf("%d\n", count);
