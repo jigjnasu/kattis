@@ -1,6 +1,6 @@
 /*
   Kattis.com
-  Problem Air Conditioned Minions.
+  Problem Another Brick in the Wall.
   Solution by Rakesh Kumar, cpp.rakesh(at)gmail.com
   Date: 27/06/2017
 */
