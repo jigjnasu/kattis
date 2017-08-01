@@ -1,3 +1,10 @@
+/*
+  Kattis.com
+  Problem Conformaity.
+  Solution by Rakesh Kumar, cpp.rakesh(at)gmail.com
+  Date: 01/08/2017
+*/
+
 #include <cstdio>
 #include <vector>
 #include <map>
