@@ -5,7 +5,6 @@
   Date: 19/06/2017
 */
 
-
 #include <cstdio>
 #include <vector>
 
