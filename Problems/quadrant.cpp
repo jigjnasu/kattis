@@ -12,11 +12,14 @@ int main() {
     int y = 0;
     scanf("%d %d", &x, &y);
 
-    if (x > 0 && y > 0)
+    const bool lsb_x = (x >> 31) & 1;
+    const bool lsb_y = (y >> 31) & 1;
+
+    if (!lsb_x && !lsb_y)
         printf("1\n");
-    else if (x < 0 && y > 0)
+    else if (lsb_x && !lsb_y)
         printf("2\n");
-    else if (x < 0 && y < 0)
+    else if (lsb_x && lsb_y)
         printf("3\n");
     else
         printf("4\n");
