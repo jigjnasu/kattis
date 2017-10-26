@@ -28,7 +28,6 @@ int main() {
         printf("Gunnar\n");
     else
         printf("Emma\n");
-    
-    
+
     return 0;
 }
