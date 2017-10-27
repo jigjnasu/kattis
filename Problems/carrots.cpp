@@ -23,6 +23,6 @@ int main() {
     }
 
     std::cout << p << std::endl;
-    
+
     return 0;
 }
