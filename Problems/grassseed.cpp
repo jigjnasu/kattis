@@ -19,11 +19,11 @@ int main() {
         double w = 0;
         double l = 0;
         scanf("%lf %lf", &w, &l);
-        
+
         total += (c * w * l);
     }
 
     printf("%.7f\n", total);
-    
+
     return 0;
 }
