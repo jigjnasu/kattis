@@ -5,13 +5,6 @@
   Date: 10/11/2017
 */
 
-/*
-  Kattis.com
-  Problem Best Relay Team.
-  Solution by Rakesh Kumar, cpp.rakesh(at)gmail.com
-  Date: 10/11/2017
-*/
-
 #include <iostream>
 #include <string>
 #include <sstream>
