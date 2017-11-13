@@ -45,7 +45,7 @@ int main() {
         while (i < 8) {
             if (dict[word[i]])
                 word[i] = dict[word[i]];
-            int t = db.find(word[i]);
+            const int t = db.find(word[i]);
             c += coffiecents[i] * t;
             v *= 27;
             v += t;
