@@ -2,6 +2,7 @@
   Kattis.com
   Problem Half a Cookie.
   Solution by Rakesh Kumar, cpp.rakesh(at)gmail.com
+  Reference : http://mathworld.wolfram.com/CircularSegment.html
   Date: 20/11/2017
  */
 
