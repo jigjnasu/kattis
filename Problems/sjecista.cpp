@@ -1,6 +1,6 @@
 /*
   Kattis.com
-  Problem Help a PhD candidate out!.
+  Problem Sjecista
   Solution by Rakesh Kumar, cpp.rakesh(at)gmail.com
   Date: 24/11/2017
  */
