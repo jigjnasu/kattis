@@ -9,14 +9,14 @@
 #include <sstream>
 #include <string>
 #include <vector>
-#include <map>
+#include <unordered_map>
 
 inline bool is_numeric(char c) {
     return (c >= '0' && c <= '9');
 }
 
 int main() {
-    std::map<std::string, int> dict;
+    std::unordered_map<std::string, int> dict;
 
     while (1) {
         std::vector<std::string> output;
