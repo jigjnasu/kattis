@@ -8,16 +8,19 @@
 #include <cstdio>
 #include <vector>
 #include <cstdlib>
+#include <random>
 
 void print(const std::vector<int>& V) {
     printf("-------------------------------------------------\n");
     for (std::size_t i = 0; i < V.size(); ++i)
         printf("%d ", V[i]);
-    printf("\n-------------------------------------------------\n");    
+    printf("\n-------------------------------------------------\n");
 }
 
 inline int random(int min, int max) {
-    return min + rand() % (max - min + 1);
+    std::random_device rd;
+    std::uniform_int_distribution<> dt(min, max);
+    return dt(rd);
 }
 
 inline void swap(int& a, int& b) {
@@ -73,12 +76,12 @@ int main() {
             scanf("%d", &value);
             list_a.push_back(value);
         }
-        
+
         for (int i = 0; i < n; ++i) {
             int value = 0;
             scanf("%d", &value);
             list_b.push_back(value);
-        }        
+        }
 
         qsort(list_b, 0, list_b.size() - 1);
         for (std::size_t i = 0; i < list_a.size(); ++i)
