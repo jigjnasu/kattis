@@ -1,6 +1,6 @@
 /*
   Kattis.com
-  Problem Last factorial digit.
+  Problem is it halloween.
   Solution by Rakesh Kumar, cpp.rakesh(at)gmail.com
   Date: 28/11/2018
  */
