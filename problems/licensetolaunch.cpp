@@ -1,6 +1,6 @@
 /*
   Kattis.com
-  Problem liscence to launch.
+  Problem license to launch.
   Solution by Rakesh Kumar, cpp.rakesh(at)gmail.com
   Date: 08/12/2018
 */
