@@ -26,7 +26,7 @@ int main() {
                 std::cout << ".";
             else
                 std::cout << "*";
-        
+
         std::cout << std::endl << std::endl;
     }
 
