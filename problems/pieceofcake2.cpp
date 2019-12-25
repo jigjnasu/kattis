@@ -2,7 +2,7 @@
   Kattis.com
   Problem Piece of Cake !!!
   Solution by Rakesh Kumar, cpp.rakesh(at)gmail.com
-  Date: 07/06/2017.
+  Date: 25/12/2019.
 */
 
 #include <bits/stdc++.h>
