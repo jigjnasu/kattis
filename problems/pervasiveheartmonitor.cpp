@@ -57,7 +57,7 @@ int main() {
 
             total += std::atof(line.substr(last_pos, line.size() - last_pos).c_str());
             ++i;
-            
+
             std::cout << std::setprecision(9) << total / i << " " << name << std::endl;
         }
     }
